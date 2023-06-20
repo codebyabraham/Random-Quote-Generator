@@ -1,0 +1,85 @@
+body{
+  background-color: rgb(0, 15, 16);
+}
+#quote-container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 120px;
+}
+
+#quote-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+
+#quote-author {
+  font-size: 18px;
+  color: #888;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#new-quote-btn {
+  margin-right: 10px;
+}
+
+#read-quote-btn {
+  font-size: 20px;
+  padding: 8px 12px;
+}
+
+@media screen and (max-width: 600px) {
+  #quote-container {
+    width: 90%;
+    padding: 20px;
+  }
+  
+  #quote-text {
+    font-size: 20px;
+  }
+  
+  #quote-author {
+    font-size: 16px;
+  }
+  
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-top: 20px;
+  }
+  
+  #new-quote-btn {
+    margin-right: 5px;
+  }
+  
+  #read-quote-btn {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+}
+
+
